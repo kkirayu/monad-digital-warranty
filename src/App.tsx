@@ -50,7 +50,6 @@ const WarrantyApp = () => {
   
   const [view, setView] = useState<'home' | 'seller' | 'verify' | 'mint' | 'admin'>('home');
   const [isProcessing, setIsProcessing] = useState(false);
-  const [txHash, setTxHash] = useState("");
 
   const [productCatalog, setProductCatalog] = useState([
     { id: 101, name: "Lenovo LOQ A16" },
